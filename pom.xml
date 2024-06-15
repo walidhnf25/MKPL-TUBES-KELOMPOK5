@@ -55,11 +55,21 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.mycompany.restoran.Restoran</exec.mainClass>
     </properties>
-    <distributionManagement>
+   <distributionManagement>
    <repository>
      <id>github</id>
-     <name>GitHub walidhnf25 Apache Maven Packages</name>
+     <name>GitHub OWNER Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/walidhnf25/MKPL-TUBES-KELOMPOK5</url>
    </repository>
 </distributionManagement>
+    <build>
+    <plugins>
+        <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>4.0.0.4121</version>
+        </plugin>
+    </plugins>
+</build>
+
 </project>
