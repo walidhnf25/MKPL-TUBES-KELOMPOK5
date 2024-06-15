@@ -11,4 +11,11 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.mycompany.restoran.Restoran</exec.mainClass>
     </properties>
+    <distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/walidhnf25/MKPL-TUBES-KELOMPOK5</url>
+   </repository>
+</distributionManagement>
 </project>
