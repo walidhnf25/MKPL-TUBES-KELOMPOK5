@@ -16,7 +16,7 @@ public class Restoran {
 
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
-        Adminsa admin = new Admin();
+        Admin admin = new Admin();
         Kasir kasir = new Kasir(admin);
 
         BahanBaku bahan1 = new BahanBaku("Gula", 5000);
